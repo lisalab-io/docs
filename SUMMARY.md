@@ -14,7 +14,7 @@
 * [Bitcoin ($BTC)](supported-tokens/bitcoin-usdbtc/README.md)
   * [How LiaBTC Earns Bitcoin Yield?](supported-tokens/bitcoin-usdbtc/how-liabtc-earns-bitcoin-yield.md)
   * [What is LiaBTC backed by?](supported-tokens/bitcoin-usdbtc/what-is-liabtc-backed-by.md)
-  * [How LiaBTC utilizes COBO?](supported-tokens/bitcoin-usdbtc/how-liabtc-utilizes-cobo.md)
+  * [How LiaBTC utilizes Cobo?](supported-tokens/bitcoin-usdbtc/how-liabtc-utilizes-cobo.md)
   * [How would ALEX V2 Upgrade Affects LiaBTC?](supported-tokens/bitcoin-usdbtc/how-would-alex-v2-upgrade-affects-liabtc.md)
 * [ALEX ($ALEX)](supported-tokens/alex.md)
 

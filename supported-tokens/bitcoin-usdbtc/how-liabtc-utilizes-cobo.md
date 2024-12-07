@@ -1,8 +1,8 @@
-# How LiaBTC utilizes COBO?
+# How LiaBTC utilizes Cobo?
 
 <figure><img src="../../.gitbook/assets/LISA_Liabtc_Issuer.png" alt=""><figcaption></figcaption></figure>
 
-XLink, in partnership with COBO as the custodian of BTC reserves, instructs COBO to securely stake the relevant Bitcoin on the Babylon platform. The underlying Bitcoin that backs the aBTC is staked at Babylon, with COBO serving as the finality provider to ensure security and the irreversibility of transactions.
+XLink, in partnership with Cobo as the custodian of BTC reserves, instructs Cobo to securely stake the relevant Bitcoin on the Babylon platform. The underlying Bitcoin that backs the aBTC is staked at Babylon, with COBO serving as the finality provider to ensure security and the irreversibility of transactions.
 
 As rewards from the staking process accrue, LiaBTC balances automatically increase, ensuring a continuous stream of rewards for holders.
 
