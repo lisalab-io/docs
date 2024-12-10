@@ -2,7 +2,7 @@
 
 <figure><img src="../../.gitbook/assets/LISA_Earn_with_LiaBTC.png" alt=""><figcaption></figcaption></figure>
 
-**LiaBTC** is a rebasing token for aBTC.
+**LiaBTC** is a rebasing token for aBTC and vLiaBTC is a yield-bearing token for BTC.
 
 aBTC is designed to mirror Bitcoin's value, maintaining a 1:1 ratio (1 aBTC = 1 BTC). It is built on the Stacks platform, which brings smart contract functionality to Bitcoin, enhancing its utility in decentralized finance (DeFi).
 

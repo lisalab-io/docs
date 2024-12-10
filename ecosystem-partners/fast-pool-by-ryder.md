@@ -2,8 +2,8 @@
 
 
 
-<figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXenwJRc6ECdpsZuRHrhOSi-ZU7803roPS24qGn10I7P-JQXPn58nsB5tcu7I7Lfjp6i6QA2L3WOYCmTrTAGsUOovyPopwYD6OoWs5kBfGSnRCFvWWC2MRLQ-JLtziVwesJ6yL-7w_diMzPwYv7_qNbf7Wmp?key=NzG1p-GuoqNGQz9DLycWLg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pppoo.png" alt=""><figcaption></figcaption></figure>
 
-Fast Pool is managed by Friedger. He has been a contributor to Stacks since 2018, and is based out of Europe.
+The [Fast Pool](https://fastpool.org/) is the oldest and one of the largest stacking pools on the Stacks ecosystem. It’s also the only pool that distribute rewards in STX. Start doubling your STX rewards today!
 
 \
