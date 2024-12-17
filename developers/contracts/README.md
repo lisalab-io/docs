@@ -26,6 +26,14 @@ For technical details on the ExecutorDAO, refer to the project's [README.md](htt
 
 ```mermaid
 flowchart LR
+    classDef smclass fill:#FFE4B5,stroke:#FF8C00
+
+    subgraph XLink Insfrastructure
+    sm[XLink Staking
+    Manager]:::smclass
+    sm -.-o stake[["External BTC Staking Platform
+    (Cobo + Babylon)"]]:::smclass
+    end
 
     mint[LiaBTC Mint
     Endpoint]
@@ -47,45 +55,46 @@ flowchart LR
     Manager]
 
     mint --mint/burn--> lia
-
-    sm -.-o stake[["External BTC Staking Platform
-    (Cobo + Babylon)"]]
 ```
 
 #### LiaBTC Mint Endpoint
 
 - Contract name: `liabtc-mint-endpoint`
-- [Complete tecnincal documentation](liabtc-mint-endpoint.md)
+- [Complete technical documentation](liabtc-mint-endpoint.md)
 
 The Mint Endpoint serves as the users' operational interface to stake and unstake `aBTC`, facilitating the minting and burning of `LiaBTC`. It relies on the XLink Staking Manager to handle the liquid staking pool management.
 
 #### LiaBTC Mint Registry
 
 - Contract name: `liabtc-mint-registry`
-- [Complete tecnincal documentation](liabtc-mint-registry.md)
+- [Complete technical documentation](liabtc-mint-registry.md)
 
 The Mint Registry functions as the persistence and treasury module for the Mint Endpoint operations.
 
 #### Token LiaBTC
 
 - Contract name: `token-liabtc`
-- [Complete tecnincal documentation](token-liabtc.md)
+- [Complete technical documentation](token-liabtc.md)
 
 Implementation of the `LiaBTC` rebasing token that represents staked `aBTC`. The underlying Bitcoin backing these `aBTC` tokens is staked externally utilizing the XLink on-chain and off-chain infrastructure. The lifecycle of the token invoves minting when `aBTC` is submitted for staking and burning upon unstaking. When users stake `aBTC` through the Mint Endpoint, they receive `LiaBTC` at a 1:1 ratio.
 
 #### Token vLiaBTC
 
 - Contract name: `token-vliabtc`
-- [Complete tecnincal documentation](token-vliabtc.md)
+- [Complete technical documentation](token-vliabtc.md)
 
 Implementation of the `vLiaBTC` value-accruing token, designed as a non-rebasing wrapper for `LiaBTC`. It is mainly used as a layer of compatibility to integrate `LiaBTC` with other DeFi protocols. Users can wrap their `LiaBTC` into `vLiaBTC` to maintain the same value in a non-rebasing format.
 
 #### XLink Staking Manager
 
 - Contract name: `xlink-staking`
-- [Complete tecnincal documentation](https://docs.xlink.network/developers/contracts/xlink-staking)
+- [Complete technical documentation](https://docs.xlink.network/developers/contracts/xlink-staking)
 
-The XLink Staking Manager contract is designed to manage liquid staking pools for multiple tokens and track staker positions within each pool. It is part of a hybrid, token-agnostic liquid staking management system, that operates alongside off-chain backend and frontend components managed by XLink.
+The XLink Staking Manager is a generic contract designed to manage liquid staking pools for multiple tokens and track staker positions within each pool. It is part of a hybrid, token-agnostic liquid staking management system, that operates alongside off-chain backend and frontend components managed by XLink.
+
+{% hint style="info" %}
+This contract is part of [XLink](https://docs.lisalab.io/ecosystem-partners/xlink) ecosystem and is governed by the XLink DAO.
+{% endhint %}
 
 ## Deployed contracts
 
@@ -96,19 +105,14 @@ Page under construction. This is not an exhaustive list.
 ### Governance
 
 - ExecutorDAO: [`'SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.lisa-dao`][lisa-dao]
-
 - Operators: [`'SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.operators`][operators]
 
 ### aBTC Liquid Staking
 
 - LiaBTC Mint Endpoint: [`'SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.liabtc-mint-endpoint`][liabtc-mint-endpoint]
-
 - LiaBTC Mint Registry: [`'SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.liabtc-mint-registry`][liabtc-mint-registry]
-
 - LiaBTC Token: [`'SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.token-liabtc`][token-liabtc]
-
 - vLiaBTC Token: [`'SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.token-vliabtc`][token-vliabtc]
-
 - XLink Staking Manager: [`'SP673Z4BPB4R73359K9HE55F2X91V5BJTN5SXZ5T.xlink-staking`][xlink-staking]
 
 [lisa-dao]: https://explorer.stxer.xyz/txid/SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.lisa-dao
