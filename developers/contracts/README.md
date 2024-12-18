@@ -28,7 +28,7 @@ For technical details on the ExecutorDAO, refer to the project's [README.md](htt
 flowchart LR
     classDef smclass fill:#FFE4B5,stroke:#FF8C00
 
-    subgraph XLink Insfrastructure
+    subgraph XLink Infrastructure
     sm[XLink Staking
     Manager]:::smclass
     sm -.-o stake[["External BTC Staking Platform
