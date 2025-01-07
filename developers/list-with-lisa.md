@@ -56,3 +56,7 @@ Here are some of the requirements that must be met:
 * The LISA team needs to review/approve the staking contract and may require audit reports.
 
 If all of the above requirements are met, the LISA team can provide the integration and create your LST for your community!
+
+{% hint style="info" %}
+Interested to LST with us? Send us a message via our official 𝕏 profile here: [https://x.com/LisaLab\_BTC](https://x.com/LisaLab_BTC)
+{% endhint %}
