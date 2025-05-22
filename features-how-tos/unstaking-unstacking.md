@@ -26,7 +26,7 @@ To unstake your LISA tokens, you would need to individually select which LISA to
 
 To understand how the Request / Redemption process works in depth, please read the Stacking/Staking on LISA section.
 
-To understand the mechanism of how the unstacking works, please read [Withdrawing from LISA](broken-reference).
+To understand the mechanism of how the unstacking works, please read [Withdrawing from LISA](../rebasing-mechanism-101/depositing-withdrawing-from-lisa.md).
 
 ### **Selling via AMM:**&#x20;
 

@@ -16,7 +16,7 @@ To stack, follow these instructions:
 5. Approve the ‘Request-Mint’ transaction.
 6. Once the transaction has completed, you will receive a Request Mint NFT, which represents the cooldown period for your Stack In process.
 
-To understand the mechanism of how the stacking works, please read '[Depositing into LISA](broken-reference)'.
+To understand the mechanism of how the stacking works, please read '[Depositing into LISA](../rebasing-mechanism-101/depositing-withdrawing-from-lisa.md)'.
 
 ### Buying via AMM:&#x20;
 
