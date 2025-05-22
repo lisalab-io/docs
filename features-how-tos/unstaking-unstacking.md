@@ -8,6 +8,10 @@ To unstake your LISA tokens, you would need to individually select which LISA to
 
 **LiALEX:** [**https://app.lisalab.io/li/alex/redeem**](https://app.lisalab.io/li/alex/redeem)
 
+**LiaBTC:** [**https://app.lisalab.io/li/abtc/redeem**](https://app.lisalab.io/li/abtc/redeem)
+
+**vLiaBTC (Bitcoin Chain):** [**https://app.lisalab.io/li/btc/redeem**](https://app.lisalab.io/li/btc/redeem)
+
 
 
 **To stack, follow these instructions:**
